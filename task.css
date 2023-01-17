@@ -1,0 +1,84 @@
+
+.flex{
+    display: flex;
+    justify-content: left;
+    width: 80%;
+    padding-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    
+   
+}
+.flex2{
+    display: flex;
+    justify-content: left;
+    width: 20%;
+    gap: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.flex3{
+display: flex;
+justify-content: right;
+width: 50%;
+padding: 80px;
+
+}
+.flex4{
+padding-top: 100px;
+justify-content: left;
+width: 50%;
+padding-right: 60px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.flex5{
+
+justify-content: center;
+width: 50%;
+padding-left: 100px;
+
+
+
+}
+.flex6{
+
+justify-content: right;
+width: 50%;
+padding-right: 100px;
+padding-top: 50px;
+}
+.flex7{
+padding-left: 10%;
+padding-right: 10%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Name{
+
+border-color: white;
+border: 0px;
+width: 100%;
+height: 40px;
+}
+
+.button{
+height: 30px; 
+padding: 3px; 
+width: 15%; 
+border: 0px;
+}
+.footer{
+text-align: center;
+background-color: rgb(220, 228, 231);
+height: 50px;
+padding-top: 70px;
+
+
+}
+#content{
+top: 600px;
+position: absolute;
+font-size: 50px;
+color: grey;
+
+}
+

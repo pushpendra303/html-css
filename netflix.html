@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix.com</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+       .img{
+        /* opacity: 0.5; */
+         background: url("../netflix.jpg"); 
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        
+       }
+       .content
+       {
+        padding-top: 10%;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.527);
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid green; */
+       }
+       .nav{
+        color: rgba(250, 172, 4, 0.952); 
+        font-size: 30px;
+        position: absolute;
+        z-index: 2;
+        padding-left: 50px;
+        padding-top: 10px;
+       }
+       .sec{
+        background-color: black;
+         color: white;
+         height: fit-content; 
+         width: fit-content; 
+         height: fit-content; 
+         padding: 8px; 
+        
+       }
+       .butt{
+        background-color: red; 
+        color: white; 
+        height: fit-content; 
+        width: fit-content; 
+        height: fit-content; 
+        padding: 10px;
+       }
+
+       .div2{
+        padding-left: 10;
+        color: white;
+        width: 50%;
+        position: sticky;
+       
+       }
+       .divimg{
+        
+        width: 50%;
+        position: sticky;
+        
+       }
+
+       
+    </style>
+</head>
+<body >
+    <div>
+   <div class="img">
+
+   </div>
+   
+    <nav class="nav" style="display: flex; align-items: center; width: 100%;">
+       <h1 style="color: #e50914; width: 80%;"> NETFLIX </h1>
+
+       <select name="language" class="sec" style="margin-right: 20px;" >
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+    </select>
+
+       <button class="butt">sign in</button>
+      
+      </nav>
+
+   <div class="content" > 
+    <!-- <h1 style="color: red; font-size: 40px;">NETFLIX</h1> -->
+     <h1 style="font-size: 55px;">Unlimited movies, TV <br> shows and more. </h1> 
+    <h3 style="font-size: 25px;">Watch anywhere. Cancel anytime.</h3> 
+   <h4 style="font-size: 20px;"> Ready to watch? Enter your email to create or restart your membership.</h4>
+   <input type="email" style="width: 30%; height: 5%;" placeholder="email">
+   <button style="background-color: red;color: white;width: 10%; height: 6%;">Get stare</button>
+</div>
+</div>
+
+
+<div style="width: 100%; height: 200%; background-color: black; z-index: 3; padding-top: 58%; display: flex;">
+
+    <div  class="div2"> 
+        <h1> Enjoy on your TV.</h1>  
+      <h2>  Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more. </h2>
+    </div>
+
+    <div class="divimg">
+        <img src="../tv.png" width="100%" alt="">
+    </div>
+</div>
+    
+   
+</body>
+</html> 
